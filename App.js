@@ -79,7 +79,7 @@ function HomeScreen({ navigation }) {
           </Text>
 
           <Text className="mt-3 text-lg font-bold text-cyan-600">
-            Starting from $19
+            Starting from $199
           </Text>
         </View>
 
