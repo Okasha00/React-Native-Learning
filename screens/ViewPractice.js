@@ -62,6 +62,20 @@ export default function ViewPractice({ navigation }) {
           </Text>
         </View>
 
+
+        {/* Card 4 */}
+        <View className="mb-6 rounded-2xl bg-white p-5">
+          <Text className="text-xl font-bold text-gray-900">
+            ⚡ Performance
+          </Text>
+
+          <Text className="mt-2 text-gray-600">
+            Optimizing React Native apps for speed and efficiency.
+          </Text>
+        </View>
+
+
+
       </View>
 
       {/* Go Back Button */}
