@@ -18,17 +18,7 @@ export default function ProductsScreen({navigation}) {
       </View>
 
       {/* Products List */}
-<View className="px-6 py-6">
-
-  {/* Item 1 */}
-  <View className="mb-4 rounded-2xl bg-white p-5">
-    <Text className="text-xl font-bold text-gray-900">
-      📱 Smartphone
-    </Text>
-    <Text className="mt-3 text-lg font-bold text-cyan-600">
-                Starting from $199
-              </Text>
-  </View>
+      <View className="px-6 py-6">
 
   {/* Item 2 */}
   <View className="mb-4 rounded-2xl bg-white p-5">
@@ -36,8 +26,11 @@ export default function ProductsScreen({navigation}) {
       💻 Laptop
     </Text>
     <Text className="mt-3 text-lg font-bold text-cyan-600">
-                Starting from $699
-              </Text>
+        Starting from $699
+    </Text>
+    <Text className="mt-1 text-sm text-green-800">
+        Discounted price: $599
+    </Text>
   </View>
 
   {/* Item 3 */}
@@ -47,7 +40,11 @@ export default function ProductsScreen({navigation}) {
     </Text>
     <Text className="mt-3 text-lg font-bold text-cyan-600">
                 Starting from $234
-              </Text>
+    </Text>
+    <Text className="mt-1 text-sm text-green-800">
+        Discounted price: $199
+    </Text>
+
   </View>
 
   {/* Item 4 */}
@@ -56,8 +53,11 @@ export default function ProductsScreen({navigation}) {
       ⌚ Smart Watch
     </Text>
     <Text className="mt-3 text-lg font-bold text-cyan-600">
-                Starting from $149
-              </Text> 
+        Starting from $149
+    </Text> 
+    <Text className="mt-1 text-sm text-green-800">
+        Discounted price: $100
+    </Text>
   </View>
 
    {/* Item 5 */}
@@ -68,6 +68,9 @@ export default function ProductsScreen({navigation}) {
     <Text className="mt-3 text-lg font-bold text-cyan-600">
                 Starting from $29
               </Text>
+    <Text className="mt-1 text-sm text-green-800">
+        Discounted price: $24
+    </Text>
     </View>
 
 
