@@ -1,4 +1,5 @@
 import { View, Text, Pressable, ScrollView } from 'react-native';
+import ProductsScreen from './ProductsScreen';
 
 export default function ViewPractice({ navigation }) {
   return (
@@ -89,7 +90,17 @@ export default function ViewPractice({ navigation }) {
           </Text>
         </Pressable>
       </View>
-
+      <View className="items-center pb-3">
+        <Pressable
+          className="mt-1 rounded-xl bg-green-500 px-8 py-4"
+          onPress={() => navigation.navigate('Products')}
+        >
+          <Text className="font-bold text-white">
+            Go to Products
+          </Text>
+        </Pressable>
+      </View>
+    
     </ScrollView>
   );
 }

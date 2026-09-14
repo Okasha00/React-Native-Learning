@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text, Pressable, ScrollView } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import ProductsScreen from './screens/ProductsScreen';
 
 import './global.css';
 
@@ -95,6 +96,15 @@ function HomeScreen({ navigation }) {
             Contact Us
           </Text>
         </Pressable>
+
+        <Pressable
+        className="mt-4 rounded-xl bg-green-500 px-8 py-4"
+        onPress={() => navigation.navigate('Products')}
+        >
+          <Text className="font-bold text-white">
+        Go to Products
+      </Text>
+      </Pressable>
       </View>
 
     </ScrollView>
@@ -114,6 +124,11 @@ export default function App() {
         <Stack.Screen
           name="ViewPractice"
           component={ViewPractice}
+        />
+
+        <Stack.Screen
+          name="Products"
+          component={ProductsScreen}
         />
 
       </Stack.Navigator>
