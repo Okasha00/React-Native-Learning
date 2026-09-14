@@ -86,7 +86,7 @@ export default function ViewPractice({ navigation }) {
           onPress={() => navigation.goBack()}
         >
           <Text className="text-lg font-bold text-white">
-            Go Back
+            Go To Home Screen
           </Text>
         </Pressable>
       </View>

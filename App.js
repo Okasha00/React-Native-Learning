@@ -93,7 +93,7 @@ function HomeScreen({ navigation }) {
           onPress={() => navigation.navigate('ViewPractice')}
         >
           <Text className="text-lg font-bold text-white">
-            Contact Us
+            Next Screen
           </Text>
         </Pressable>
 
@@ -101,7 +101,7 @@ function HomeScreen({ navigation }) {
         className="mt-4 rounded-xl bg-green-500 px-8 py-4"
         onPress={() => navigation.navigate('Products')}
         >
-          <Text className="font-bold text-white">
+          <Text className="font-bold text-blue-800">
         Go to Products
       </Text>
       </Pressable>
