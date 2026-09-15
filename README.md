@@ -1,35 +1,55 @@
-# React Native Practice App
+**# React Native Practice App**
 
-This is my React Native learning project built with **Expo** and **NativeWind (Tailwind CSS)**.
+This is my React Native learning project built with **\*\*Expo\*\*** and **\*\*NativeWind (Tailwind CSS)\*\***.
 
-## What I'm Learning
+**## What I'm Learning**
 
-* React Native components
-* `View`
-* `Text`
-* `Pressable`
-* `ScrollView`
-* Navigation between screens
-* NativeWind / Tailwind CSS
-* React Native layouts and styling
+\* React Native components
 
-## Project Structure
+\* \`View\`
 
-```text
+\* \`Text\`
+
+\* \`Pressable\`
+
+\* \`ScrollView\`
+
+\* Navigation between screens
+
+\* NativeWind / Tailwind CSS
+
+\* React Native layouts and styling
+
+**## Project Structure**
+
+\`\`\`text
+
 ├── App.js
+
 ├── global.css
+
 └── screens/
-    └── ViewPractice.js
-```
 
-## Technologies
+    └── ProductsScreen.js
+    └── ReviewScreen.js
 
-* React Native
-* Expo
-* NativeWind
-* Tailwind CSS
-* React Navigation
 
-## Purpose
+
+\`\`\`
+
+**## Technologies**
+
+\* React Native
+
+\* Expo
+
+\* NativeWind
+
+\* Tailwind CSS
+
+\* React Navigation
+
+**## Purpose**
 
 This project is created for practicing React Native and NativeWind concepts step by step.
+aslo add learning k sth isme ak chote store app bnai for learning bs using 3 creessns 
