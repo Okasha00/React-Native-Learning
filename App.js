@@ -89,7 +89,7 @@ function HomeScreen({ navigation }) {
       <View className="items-center px-6 py-6">
 
         <Pressable
-        className="rounded-xl bg-green-500 px-8 py-4"
+        className="rounded-full bg-green-500 px-8 py-4"
         onPress={() => navigation.navigate('Products')}
         >
           <Text className="text-lg font-bold text-black">
@@ -98,7 +98,7 @@ function HomeScreen({ navigation }) {
         </Pressable>
 
         <Pressable
-          className="mt-4 rounded-xl bg-green-500 px-8 py-4"
+          className="mt-4 rounded-full bg-green-500 px-8 py-4"
           onPress={() => navigation.navigate('Review')}
         >
           <Text className="text-lg font-bold text-black">
