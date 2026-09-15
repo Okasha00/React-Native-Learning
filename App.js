@@ -6,32 +6,31 @@ import ProductsScreen from './screens/ProductsScreen';
 import ReviewScreen from './screens/ReviewScreen';
 import './global.css';
 
-import ViewPractice from './screens/ViewPractice';
 
 const Stack = createNativeStackNavigator();
 
 function HomeScreen({ navigation }) {
   return (
-    <ScrollView className="flex-1 bg-gray-100">
+    <ScrollView className="flex-1 bg-cyan-100">
 
       {/* Header */}
-      <View className="bg-cyan-400 px-6 py-8">
+      <View className="bg-cyan-400 px-6 py-8 items-center">
         <Text className="text-3xl font-bold text-black">
           Welcome to Sameer Store
         </Text>
 
-        <Text className="mt-5 text-base text-green-800">
+        <Text className="mt-5 text-base text-green-800 text-center">
           Your one-stop shop for everything you need.
         </Text>
       </View>
 
       {/* Welcome Section */}
-      <View className="px-6 py-6">
+      <View className="px-6 py-6 items-center">
         <Text className="text-2xl font-bold text-gray-900">
           Shop Now 🛍️
         </Text>
 
-        <Text className="mt-4 text-gray-600">
+        <Text className="mt-4 text-gray-600 text-center">
           Discover our latest products and amazing deals.
         </Text>
       </View>
@@ -87,30 +86,22 @@ function HomeScreen({ navigation }) {
       </View>
 
       {/* Contact Us Button */}
-      <View className="items-center pb-8">
-        <Pressable
-          className="rounded-xl bg-black px-8 py-4"
-          onPress={() => navigation.navigate('ViewPractice')}
-        >
-          <Text className="text-lg font-bold text-white">
-            Next Screen
-          </Text>
-        </Pressable>
+      <View className="items-center px-6 py-6">
 
         <Pressable
-        className="mt-4 rounded-xl bg-green-500 px-8 py-4"
+        className="rounded-xl bg-green-500 px-8 py-4"
         onPress={() => navigation.navigate('Products')}
         >
-          <Text className="font-bold text-blue-800">
+          <Text className="text-lg font-bold text-black">
             Go to Products
           </Text>
         </Pressable>
 
         <Pressable
-          className="mt-4 rounded-xl bg-purple-500 px-8 py-4"
+          className="mt-4 rounded-xl bg-green-500 px-8 py-4"
           onPress={() => navigation.navigate('Review')}
         >
-          <Text className="font-bold text-white">
+          <Text className="text-lg font-bold text-black">
             View Reviews
           </Text>
         </Pressable>
@@ -128,11 +119,6 @@ export default function App() {
         <Stack.Screen
           name="Home"
           component={HomeScreen}
-        />
-
-        <Stack.Screen
-          name="ViewPractice"
-          component={ViewPractice}
         />
 
         <Stack.Screen

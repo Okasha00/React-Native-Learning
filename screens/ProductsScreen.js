@@ -9,7 +9,7 @@ import { useState } from 'react';
 export default function ProductsScreen({navigation}) {
   return (
 
-     <ScrollView className="flex-1 bg-gray-100">
+     <ScrollView className="flex-1 bg-cyan-100"> 
         {/* Front Screen */}
     <View className="bg-cyan-400 px-6 py-8">
       <Text className="text-3xl font-bold text-gray-900">
@@ -73,6 +73,35 @@ export default function ProductsScreen({navigation}) {
     </Text>
     </View>
 
+    {/* Item 6 */}
+  <View className="mb-4 rounded-2xl bg-white p-5">
+    <Text className="text-xl font-bold text-gray-900">
+      🔌 Data Cable
+    </Text>
+    <Text className="mt-3 text-lg font-bold text-cyan-600">
+                Starting from $29
+              </Text>
+    <Text className="mt-1 text-sm text-green-800">
+        Discounted price: $24
+    </Text>
+
+    </View>
+
+     {/* Item 7 */}
+  <View className="mb-4 rounded-2xl bg-white p-5">
+    <Text className="text-xl font-bold text-gray-900">
+      🔋 Data Cable
+    </Text>
+    <Text className="mt-3 text-lg font-bold text-cyan-600">
+                Starting from $295
+              </Text>
+    <Text className="mt-1 text-sm text-green-800">
+        Discounted price: $243 
+    </Text>
+    
+    </View>
+
+
 
 </View>
 
@@ -81,11 +110,11 @@ export default function ProductsScreen({navigation}) {
      {/* Go Back Button */}
         <View className="items-center pb-8">
         <Pressable
-          className="mt-4 rounded-xl bg-green-500 px-8 py-4"
+          className="mt-9 rounded-xl bg-green-500 px-8 py-4"
           onPress={() => navigation.goBack()}
         >
           <Text className="text-lg font-bold text-black">
-            Go To Home
+            Go To Home Screen
           </Text>
         </Pressable>
       </View>
