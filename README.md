@@ -1,55 +1,50 @@
-**# React Native Practice App**
+# React Native Practice App
 
-This is my React Native learning project built with **\*\*Expo\*\*** and **\*\*NativeWind (Tailwind CSS)\*\***.
+This is my React Native learning project built with **Expo** and **NativeWind (Tailwind CSS)**.
 
-**## What I'm Learning**
+Along with learning React Native concepts, I also built a small **Store App** for practice using 3 screens.
 
-\* React Native components
+## What I'm Learning
 
-\* \`View\`
+* React Native components
+* `View`
+* `Text`
+* `Pressable`
+* `ScrollView`
+* Navigation between screens
+* NativeWind / Tailwind CSS
+* React Native layouts and styling
 
-\* \`Text\`
+## Store App
 
-\* \`Pressable\`
+As part of my learning, I built a small Store App to practice React Native concepts and screen navigation.
 
-\* \`ScrollView\`
+The app currently has 3 screens:
 
-\* Navigation between screens
+* 🏠 Home Screen
+* 📚 View Practice Screen
+* 🛍️ Products Screen
 
-\* NativeWind / Tailwind CSS
+## Project Structure
 
-\* React Native layouts and styling
-
-**## Project Structure**
-
-\`\`\`text
-
+```text
 ├── App.js
-
 ├── global.css
-
 └── screens/
-
-    └── ProductsScreen.js
+    ├── ProductsScreen.js
     └── ReviewScreen.js
+```
 
+## Technologies
 
+* React Native
+* Expo
+* NativeWind
+* Tailwind CSS
+* React Navigation
 
-\`\`\`
+## Purpose
 
-**## Technologies**
+This project is created for practicing React Native and NativeWind concepts step by step while building a small Store App.
 
-\* React Native
-
-\* Expo
-
-\* NativeWind
-
-\* Tailwind CSS
-
-\* React Navigation
-
-**## Purpose**
-
-This project is created for practicing React Native and NativeWind concepts step by step.
-aslo add learning k sth isme ak chote store app bnai for learning bs using 3 creessns 
+The main goal is to learn by building and practicing different React Native components, styling, layouts, and navigation.
