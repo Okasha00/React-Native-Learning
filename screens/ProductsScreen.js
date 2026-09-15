@@ -90,7 +90,7 @@ export default function ProductsScreen({navigation}) {
      {/* Item 7 */}
   <View className="mb-4 rounded-2xl bg-white p-5">
     <Text className="text-xl font-bold text-gray-900">
-      🔋 Data Cable
+      🔋 Laptop Battery
     </Text>
     <Text className="mt-3 text-lg font-bold text-cyan-600">
                 Starting from $295

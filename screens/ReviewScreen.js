@@ -87,6 +87,22 @@ export default function ReviewScreen({navigation}) {
             </Text>
             
           </View>
+
+
+          {/* Item 6 */}
+          <View className="mb-4 rounded-2xl bg-white p-5">
+            <Text className="text-xl font-bold text-gray-900">
+              🔋 Review of Laptop Battery
+            </Text>
+            <Text className="mt-3 text-lg font-bold text-cyan-600">
+                Rating : 4/5
+            </Text>
+
+            <Text className="mt-1 text-sm text-green-800">
+                Review: Fast charging and reliable connection.
+            </Text>
+            
+          </View>
         
         </View>
 
