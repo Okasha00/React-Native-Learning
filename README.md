@@ -11,6 +11,7 @@ Along with learning React Native concepts, I also built a small **Store App** fo
 * `Text`
 * `Pressable`
 * `ScrollView`
+* useState
 * Navigation between screens
 * NativeWind / Tailwind CSS
 * React Native layouts and styling
