@@ -5,6 +5,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import ProductsScreen from './screens/ProductsScreen';
 import ReviewScreen from './screens/ReviewScreen';
 import './global.css';
+import LikeButton from './screens/LikeButton';
 
 
 const Stack = createNativeStackNavigator();
@@ -105,6 +106,14 @@ function HomeScreen({ navigation }) {
             View Reviews
           </Text>
         </Pressable>
+
+        <Pressable className="mt-4 rounded-full bg-green-500 px-8 py-4"
+        onPress={ () => navigation.navigate('Like')}>
+          <Text className="text-lg font-bold text-black">
+            View Button
+          </Text>
+
+        </Pressable>
       </View>
 
     </ScrollView>
@@ -130,6 +139,11 @@ export default function App() {
         <Stack.Screen
           name="Review"
           component={ReviewScreen}
+        />
+
+        <Stack.Screen
+          name="Like"
+          component={LikeButton}
         />
 
       </Stack.Navigator>
